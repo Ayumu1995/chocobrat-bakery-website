@@ -6,3 +6,300 @@
   list-style: none;
   font-family: Poppins;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.text h2 {
+  color: #4c1c1c;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.text p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.text a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #4c1c1c;
+  font-weight: bold;
+}
+
+.text a:hover {
+  text-decoration: underline;
+}
+
+.image {
+  flex: 1;
+  padding: 20px;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 400px;
+}
+
+.cta {
+  background-color: #f5e1c1;
+  text-align: center;
+  padding: 70px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.cta h3 {
+  color: #4c1c1c;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.cta p {
+  color: #474747;
+  margin-bottom: 20px;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4c1c1c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta a:hover {
+  background-color: #3b1515;
+}
+.testimonial {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.testimonial .quote {
+  color: #f5c381;
+  font-size: 50px;
+}
+
+.testimonial .text {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.testimonial .author {
+  margin-top: 20px;
+}
+
+.testimonial .author img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial .author h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #4c1c1c;
+}
+
+.testimonial .author p {
+  color: #666;
+  font-size: 14px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.dots span {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dots .active {
+  background-color: #4c1c1c;
+}
+
+footer {
+  background-color: #f9e4c9;
+  padding: 20px 40px 40px; /* Increased bottom padding to fit the layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #e0c7a5;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+  border-bottom: 1px solid grey; width: 100%;
+}
+
+.footer-top .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-top .nav {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.footer-top .nav a {
+  text-decoration: none;
+  color: #4a3c31;
+  font-size: 16px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #4a3c31;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #b17a5a;
+}
+
+.quote-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 50px auto;
+}
+
+.quote-container .quote {
+  font-size: 28px;
+  line-height: 1.6;
+  color: #000000;
+  font-weight: 700;
+}
+
+.quote-container .quote::before,
+.quote-container .quote::after {
+  content: '"';
+  font-size: 36px;
+  color: #f4d03f;
+}
+
+.author {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.author-info {
+  text-align: left;
+}
+
+.author-info .name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.author-info .title {
+  font-size: 14px;
+  color: #777;
+}
+
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 0 5px;
+}
+
+.pagination span.active {
+  background-color: #333;
+}
+.quote-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b58e53;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #fef5e6;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
