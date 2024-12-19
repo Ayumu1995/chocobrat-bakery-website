@@ -11,6 +11,9 @@ dist/
 .vscode/
 .idea/
 
+# Message to co-workers
+how_to_dev.md
+
 
 # Caches and Log files
 .eslintcache
