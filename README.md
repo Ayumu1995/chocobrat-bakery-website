@@ -3,7 +3,6 @@
 This project is for a weekly assignment to recreate the website mockup.
 This website is designed to be viewed at a resolution of **1440×1200**.
 
-
 ## File Structure
 
 ```
@@ -41,7 +40,7 @@ This website is designed to be viewed at a resolution of **1440×1200**.
 
 - Ayumu Miyamoto
 
-  - Role:
+  - Role: Design above products
 
 - Tulio Ferraro de Macedo
-  - Role:
+  - Role: Design below products
