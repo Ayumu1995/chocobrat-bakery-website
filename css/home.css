@@ -5,4 +5,79 @@
   text-decoration: none;
   list-style: none;
   font-family: Poppins;
+  color: #4a1d1f;
+}
+
+#page-top {
+  height: 700px;
+}
+
+#about-products {
+  height: 128px;
+  width: 100%;
+  padding: 0 85px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#about-products h2 {
+  width: 484px;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 1%;
+  align-content: center;
+}
+
+#about-products #vertical-border {
+  width: 1px;
+  height: 128px;
+  border-right: solid 1px #4a1d1f;
+}
+
+#about-products p {
+  font-size: 22px;
+  width: 673px;
+  height: 100%;
+  margin-left: 10px;
+  letter-spacing: 1%;
+  align-content: center;
+}
+
+#products-flex {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  gap: 61.5px;
+  margin-top: 120px;
+  padding-left: 85px;
+}
+
+.product {
+  width: 231px;
+}
+
+.product h3 {
+  color: black;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+#products-section button {
+  display: block;
+  margin: 80px auto 0 auto;
+  padding: auto;
+  width: 202px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#products-section button p {
+  height: 50px;
+  font-size: 20px;
+  font-weight: 200px;
+  align-content: center;
 }
